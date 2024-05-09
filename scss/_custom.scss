@@ -1,0 +1,140 @@
+.container {
+    max-width: 973px;
+    padding: 0 25px;
+    margin: 0 auto;
+}
+
+.instructional-section {
+    padding: 60px 0;
+
+    .title-block {
+        text-align: center;
+        margin-bottom: 60px;
+
+        h2 {
+            margin-bottom: 5px;
+        }
+    }
+
+    .instructional-wrapper {
+        position: relative;
+
+        .week-block {
+            position: absolute;
+            bottom: 3px;
+            left: -3px;
+            display: flex;
+            flex-direction: row-reverse;
+            transform-origin: left bottom;
+            transform: rotate(-90deg);
+
+            .week {
+                background-color: $yellow;
+                color: $dark-orange;
+                font-weight: 900;
+                font-size: 28px;
+                height: 75px;
+                width: 150px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 75px 75px 0 0;
+                padding-top: 15px;
+                margin: 0 3px;
+            }
+        }
+
+        .instruction-slide {
+            width: 210px !important;
+
+            .instructional-slide-inner {
+                text-align: center;
+                color: $white;
+                font-weight: 900;
+                padding: 0 3px;
+                &.blue .heading-block  {
+                    background-color: $blue-color;
+                    box-shadow: 0 -10px 0 $blue-boxshadow;
+                }
+                &.blue .week-description  {
+                    background-color: $blue-color;
+                }
+
+                span {
+                    text-transform: uppercase;
+                    font-weight: 900;
+                    display: block;
+                    margin-bottom: 24px;
+                    color: $teal-color;
+                }
+
+                .heading-block {
+                    background-color: $teal-color;
+                    box-shadow: 0 -10px 0 $teal-boxshadow;
+                    padding: 13px;
+                    margin-bottom: 12px;
+                    border-radius: 24px 24px 0 0;
+
+                    
+
+                    .content {
+                        color: $white;
+                        text-transform: uppercase;
+                        min-height: 65px;
+                        margin-bottom: 10px;
+                        position: relative;
+
+                        &::after {
+                            content: "";
+                            height: 3px;
+                            width: 18px;
+                            position: absolute;
+                            bottom: 0;
+                            left: 46%;
+                            background-color: $white;
+                        }
+
+                    }
+                }
+
+                .week-description {
+                    background-color: $teal-color;
+                    min-height: 150px;
+                    margin-bottom: 6px;
+
+                    .link-wrapper {
+                        padding-top: 25px;
+
+                        a {
+                            display: block;
+                            position: relative;
+                            color: $white;
+                            padding-bottom: 18px;
+                            margin-bottom: 6px;
+                            transition: $transition;
+                            font-size: 18px;
+                            max-width: 194px;
+
+                            &::after {
+                                content: "";
+                                height: 3px;
+                                width: 18px;
+                                position: absolute;
+                                bottom: 0;
+                                left: 46%;
+                                background-color: $white;
+                            }
+
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+
+}
