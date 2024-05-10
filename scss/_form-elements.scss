@@ -1,0 +1,40 @@
+
+.slick-slider {
+    .slick-prev {
+        left: -60px;
+        background-image: url(../images/right-arrow.svg);
+        transform: rotate(180deg) translateY(50%);    
+        &::before{
+            display: none;
+        }
+        &.slick-disabled{
+            visibility: hidden;
+            opacity: 0;
+        }
+    }
+    .slick-next{
+        right: -60px;
+        background-image: url(../images/right-arrow.svg);
+        
+        &::before{
+            display: none;
+        }
+        &.slick-disabled{
+            visibility: hidden;
+            opacity: 0;
+        }
+        }
+    .slick-arrow {
+        height: 100px;
+        width: 55px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 28px;
+        top: 16%;
+        @include bp(lg-max){
+          display: none !important;
+          } 
+    }
+
+}
+

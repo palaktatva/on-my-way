@@ -67,6 +67,44 @@ h3 {
   text-transform: uppercase;
   border-bottom: 2px dotted #ffffff;
   margin-bottom: 5px;
+  min-height: 77px;
+}
+
+.slick-slider .slick-prev {
+  left: -60px;
+  background-image: url(../images/right-arrow.svg);
+  transform: rotate(180deg) translateY(50%);
+}
+.slick-slider .slick-prev::before {
+  display: none;
+}
+.slick-slider .slick-prev.slick-disabled {
+  visibility: hidden;
+  opacity: 0;
+}
+.slick-slider .slick-next {
+  right: -60px;
+  background-image: url(../images/right-arrow.svg);
+}
+.slick-slider .slick-next::before {
+  display: none;
+}
+.slick-slider .slick-next.slick-disabled {
+  visibility: hidden;
+  opacity: 0;
+}
+.slick-slider .slick-arrow {
+  height: 100px;
+  width: 55px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 28px;
+  top: 16%;
+}
+@media (max-width: 1199px) {
+  .slick-slider .slick-arrow {
+    display: none !important;
+  }
 }
 
 .container {
@@ -87,11 +125,12 @@ h3 {
 }
 .instructional-section .instructional-wrapper {
   position: relative;
+  padding-left: 85px;
 }
 .instructional-section .instructional-wrapper .week-block {
   position: absolute;
-  bottom: 3px;
-  left: -3px;
+  bottom: 50px;
+  left: 80px;
   display: flex;
   flex-direction: row-reverse;
   transform-origin: left bottom;
@@ -111,9 +150,6 @@ h3 {
   padding-top: 15px;
   margin: 0 3px;
 }
-.instructional-section .instructional-wrapper .instruction-slide {
-  width: 210px !important;
-}
 .instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner {
   text-align: center;
   color: #ffffff;
@@ -125,7 +161,91 @@ h3 {
   box-shadow: 0 -10px 0 #037BC1;
 }
 .instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.blue .week-description {
+  background-color: #037BC1;
+}
+.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.blue .week-description:hover {
   background-color: #005E9D;
+}
+.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.blue span {
+  color: #005E9D;
+}
+.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.purple .heading-block {
+  background-color: #6950A1;
+  box-shadow: 0 -10px 0 #826aaf;
+}
+.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.purple .week-description {
+  background-color: #826aaf;
+}
+.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.purple .week-description:hover {
+  background-color: #6950A1;
+}
+.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.purple span {
+  color: #6950A1;
+}
+.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.orange .heading-block {
+  background-color: #F15A22;
+  box-shadow: 0 -10px 0 #E47709;
+}
+.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.orange .week-description {
+  background-color: #E47709;
+}
+.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.orange .week-description:hover {
+  background-color: #F15A22;
+}
+.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.orange span {
+  color: #F15A22;
+}
+.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.red .heading-block {
+  background-color: #C72127;
+  box-shadow: 0 -10px 0 #ED1C24;
+}
+.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.red .week-description {
+  background-color: #ED1C24;
+}
+.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.red .week-description:hover {
+  background-color: #C72127;
+}
+.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.red span {
+  color: #C72127;
+}
+.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.violet .heading-block {
+  background-color: #9B1F87;
+  box-shadow: 0 -10px 0 #BD3E97;
+}
+.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.violet .week-description {
+  background-color: #BD3E97;
+}
+.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.violet .week-description:hover {
+  background-color: #9B1F87;
+}
+.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.violet span {
+  color: #9B1F87;
+}
+.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.green .heading-block {
+  background-color: #519C0B;
+  box-shadow: 0 -10px 0 #5EA61B;
+}
+.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.green .week-description {
+  background-color: #5EA61B;
+}
+.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.green .week-description:hover {
+  background-color: #519C0B;
+}
+.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.green span {
+  color: #519C0B;
+}
+.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.dark-green .heading-block {
+  background-color: #009A82;
+  box-shadow: 0 -10px 0 #00A88E;
+}
+.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.dark-green .week-description {
+  background-color: #00A88E;
+}
+.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.dark-green .week-description:hover {
+  background-color: #009A82;
+}
+.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.dark-green span {
+  color: #009A82;
 }
 .instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner span {
   text-transform: uppercase;
@@ -140,6 +260,7 @@ h3 {
   padding: 13px;
   margin-bottom: 12px;
   border-radius: 24px 24px 0 0;
+  min-height: 204px;
 }
 .instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner .heading-block .content {
   color: #ffffff;
@@ -158,12 +279,20 @@ h3 {
   background-color: #ffffff;
 }
 .instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner .week-description {
-  background-color: #0485A2;
+  background-color: #059DBF;
   min-height: 150px;
   margin-bottom: 6px;
+  transition: all 0.5s;
+}
+.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner .week-description:hover {
+  background-color: #0485A2;
 }
 .instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner .week-description .link-wrapper {
   padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner .week-description .link-wrapper a {
   display: block;
@@ -186,4 +315,62 @@ h3 {
 }
 .instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner .week-description .link-wrapper a:hover {
   text-decoration: underline;
+}
+.instructional-section .slider-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 6px 0 0;
+}
+@media (max-width: 991px) {
+  .instructional-section .slider-nav.desktop-nav {
+    display: none;
+  }
+}
+.instructional-section .slider-nav.tablet-nav {
+  display: none;
+}
+@media (max-width: 991px) {
+  .instructional-section .slider-nav.tablet-nav {
+    display: flex;
+  }
+}
+.instructional-section .slider-nav.show-prev .prev {
+  visibility: visible;
+  opacity: 1;
+}
+.instructional-section .slider-nav.hide-next .next {
+  visibility: hidden;
+  opacity: 0;
+}
+.instructional-section .slider-nav a {
+  display: inline-flex;
+  align-items: center;
+  font-size: 24px;
+  text-decoration: underline;
+  font-weight: 900;
+  color: #E7670B;
+  transition: all 0.5s;
+}
+.instructional-section .slider-nav a:hover img {
+  transform: translateX(-20%);
+}
+.instructional-section .slider-nav em {
+  font-style: normal;
+}
+.instructional-section .slider-nav img {
+  vertical-align: middle;
+}
+.instructional-section .slider-nav .prev em {
+  transform: rotate(180deg);
+  margin-right: 15px;
+}
+.instructional-section .slider-nav .prev span em {
+  margin: 0;
+}
+.instructional-section .slider-nav .next em {
+  margin-left: 15px;
+}
+.instructional-section .slider-nav .next span em {
+  margin: 0;
 }/*# sourceMappingURL=main.css.map */
