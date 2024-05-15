@@ -150,111 +150,126 @@ h3 {
   padding-top: 15px;
   margin: 0 3px;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper {
+  position: relative;
+}
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .nav-top {
+  position: absolute;
+  top: 17px;
+  right: 0;
+  left: 0;
+  z-index: 10;
+}
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner {
   text-align: center;
   color: #ffffff;
   font-weight: 900;
   padding: 0 3px;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.blue .heading-block {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner.blue .heading-block {
   background-color: #005E9D;
   box-shadow: 0 -10px 0 #037BC1;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.blue .week-description {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner.blue .week-description {
   background-color: #037BC1;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.blue .week-description:hover {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner.blue .week-description:hover {
   background-color: #005E9D;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.blue span {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner.blue span {
   color: #005E9D;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.purple .heading-block {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner.purple .heading-block {
   background-color: #6950A1;
   box-shadow: 0 -10px 0 #826aaf;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.purple .week-description {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner.purple .week-description {
   background-color: #826aaf;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.purple .week-description:hover {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner.purple .week-description:hover {
   background-color: #6950A1;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.purple span {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner.purple span {
   color: #6950A1;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.orange .heading-block {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner.orange .heading-block {
   background-color: #F15A22;
   box-shadow: 0 -10px 0 #E47709;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.orange .week-description {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner.orange .week-description {
   background-color: #E47709;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.orange .week-description:hover {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner.orange .week-description:hover {
   background-color: #F15A22;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.orange span {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner.orange span {
   color: #F15A22;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.red .heading-block {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner.red .heading-block {
   background-color: #C72127;
   box-shadow: 0 -10px 0 #ED1C24;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.red .week-description {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner.red .week-description {
   background-color: #ED1C24;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.red .week-description:hover {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner.red .week-description:hover {
   background-color: #C72127;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.red span {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner.red span {
   color: #C72127;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.violet .heading-block {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner.violet .heading-block {
   background-color: #9B1F87;
   box-shadow: 0 -10px 0 #BD3E97;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.violet .week-description {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner.violet .week-description {
   background-color: #BD3E97;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.violet .week-description:hover {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner.violet .week-description:hover {
   background-color: #9B1F87;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.violet span {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner.violet span {
   color: #9B1F87;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.green .heading-block {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner.green .heading-block {
   background-color: #519C0B;
   box-shadow: 0 -10px 0 #5EA61B;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.green .week-description {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner.green .week-description {
   background-color: #5EA61B;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.green .week-description:hover {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner.green .week-description:hover {
   background-color: #519C0B;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.green span {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner.green span {
   color: #519C0B;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.dark-green .heading-block {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner.dark-green .heading-block {
   background-color: #009A82;
   box-shadow: 0 -10px 0 #00A88E;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.dark-green .week-description {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner.dark-green .week-description {
   background-color: #00A88E;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.dark-green .week-description:hover {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner.dark-green .week-description:hover {
   background-color: #009A82;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner.dark-green span {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner.dark-green span {
   color: #009A82;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner span {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner span {
   text-transform: uppercase;
   font-weight: 900;
   display: block;
   margin-bottom: 24px;
   color: #0485A2;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner .heading-block {
+@media (max-width: 991px) {
+  .instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner span {
+    margin-bottom: 58px;
+  }
+}
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner .heading-block {
   background-color: #0485A2;
   box-shadow: 0 -10px 0 #0a99ba;
   padding: 13px;
@@ -262,14 +277,14 @@ h3 {
   border-radius: 24px 24px 0 0;
   min-height: 204px;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner .heading-block .content {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner .heading-block .content {
   color: #ffffff;
   text-transform: uppercase;
   min-height: 65px;
   margin-bottom: 10px;
   position: relative;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner .heading-block .content::after {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner .heading-block .content::after {
   content: "";
   height: 3px;
   width: 18px;
@@ -278,23 +293,23 @@ h3 {
   left: 46%;
   background-color: #ffffff;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner .week-description {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner .week-description {
   background-color: #059DBF;
   min-height: 150px;
   margin-bottom: 6px;
   transition: all 0.5s;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner .week-description:hover {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner .week-description:hover {
   background-color: #0485A2;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner .week-description .link-wrapper {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner .week-description .link-wrapper {
   padding-top: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner .week-description .link-wrapper a {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner .week-description .link-wrapper a {
   display: block;
   position: relative;
   color: #ffffff;
@@ -304,7 +319,7 @@ h3 {
   font-size: 18px;
   max-width: 194px;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner .week-description .link-wrapper a::after {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner .week-description .link-wrapper a::after {
   content: "";
   height: 3px;
   width: 18px;
@@ -313,7 +328,7 @@ h3 {
   left: 46%;
   background-color: #ffffff;
 }
-.instructional-section .instructional-wrapper .instruction-slide .instructional-slide-inner .week-description .link-wrapper a:hover {
+.instructional-section .instructional-wrapper .instructional-slider-inner-wrapper .instruction-slide .instructional-slide-inner .week-description .link-wrapper a:hover {
   text-decoration: underline;
 }
 .instructional-section .slider-nav {
@@ -333,6 +348,16 @@ h3 {
 @media (max-width: 991px) {
   .instructional-section .slider-nav.tablet-nav {
     display: flex;
+  }
+}
+@media (max-width: 575px) {
+  .instructional-section .slider-nav.tablet-nav {
+    display: none;
+  }
+}
+@media (min-width: 575px) {
+  .instructional-section .slider-nav.mobile-nav {
+    display: none;
   }
 }
 .instructional-section .slider-nav.show-prev .prev {
@@ -360,6 +385,10 @@ h3 {
 }
 .instructional-section .slider-nav img {
   vertical-align: middle;
+}
+.instructional-section .slider-nav .prev {
+  visibility: hidden;
+  opacity: 0;
 }
 .instructional-section .slider-nav .prev em {
   transform: rotate(180deg);

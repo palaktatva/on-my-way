@@ -3,6 +3,7 @@
     $xxxs-max: "(max-width: 374px)";
     $xxs-max: "(max-width: 479px)";
     $xs-max: "(max-width: 575px)";
+    $xs-min: "(min-width: 575px)";
     $sm-max: "(max-width: 767px)";
     $sm-min: "(min-width: 768px)";
     $smd-max: "(max-width: 991px)";
@@ -24,6 +25,11 @@
     }
     @else if $point==xs-max {
         @media #{$xs-max} {
+            @content;
+        }
+    }
+    @else if $point==xs-min {
+        @media #{$xs-min} {
             @content;
         }
     }

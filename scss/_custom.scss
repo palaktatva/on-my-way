@@ -44,168 +44,143 @@
             }
         }
 
-        .instruction-slide {
+        .instructional-slider-inner-wrapper{
+            position: relative;
+            .nav-top{
+                position: absolute;    
+                top: 17px;
+                right: 0;
+                left: 0;
+                z-index: 10;
+            }
+            .instruction-slide {
 
-            .instructional-slide-inner {
-                text-align: center;
-                color: $white;
-                font-weight: 900;
-                padding: 0 3px;
-                &.blue .heading-block  {
-                    background-color: $blue-color;
-                    box-shadow: 0 -10px 0 $blue-light;
-                }
-                &.blue .week-description  {
-                    background-color: $blue-light;
-                    &:hover{
-                        background-color: $blue-color;
-                    }
-                }
-                &.blue span{
-                    color: $blue-color;
-                }
-                &.purple .heading-block  {
-                    background-color: $purple-color;
-                    box-shadow: 0 -10px 0 $purple-light;
-                }
-                &.purple .week-description  {
-                    background-color: $purple-light;
-
-                    &:hover{
-                        background-color: $purple-color;
-                    }
-                }
-                &.purple span{
-                    color: $purple-color;
-                }
-                &.orange .heading-block  {
-                    background-color: $orange-color;
-                    box-shadow: 0 -10px 0 $orange-light;
-                }
-                &.orange .week-description  {
-                    background-color: $orange-light;
-                    &:hover{
-                        background-color: $orange-color;
-                    }
-                }
-                &.orange span{
-                    color: $orange-color;
-                }
-                &.red .heading-block  {
-                    background-color: $red-color;
-                    box-shadow: 0 -10px 0 $red-light;
-                }
-                &.red .week-description  {
-                    background-color: $red-light;
-                    &:hover{
-                        background-color: $red-color;
-                    }
-                }
-                &.red span{
-                    color: $red-color;
-                }
-                &.violet .heading-block  {
-                    background-color: $violet-color;
-                    box-shadow: 0 -10px 0 $violet-light;
-                }
-                &.violet .week-description  {
-                    background-color: $violet-light;
-                    &:hover{
-                        background-color: $violet-color;
-                    }
-                }
-                &.violet span{
-                    color: $violet-color;
-                }
-                &.green .heading-block  {
-                    background-color: $green-color;
-                    box-shadow: 0 -10px 0 $green-light;
-                }
-                &.green .week-description  {
-                    background-color: $green-light;
-                    &:hover{
-                        background-color: $green-color;
-                    }
-                }
-                &.green span{
-                    color: $green-color;
-                }
-                &.dark-green .heading-block  {
-                    background-color: $dark-green-color;
-                    box-shadow: 0 -10px 0 $dark-green-light;
-                }
-                &.dark-green .week-description  {
-                    background-color: $dark-green-light;
-                    &:hover{
-                        background-color: $dark-green-color;
-                    }
-                }
-                &.dark-green span{
-                    color: $dark-green-color;
-                }
-                span {
-                    text-transform: uppercase;
+                .instructional-slide-inner {
+                    text-align: center;
+                    color: $white;
                     font-weight: 900;
-                    display: block;
-                    margin-bottom: 24px;
-                    color: $teal-color;
-                }
-
-                .heading-block {
-                    background-color: $teal-color;
-                    box-shadow: 0 -10px 0 $teal-boxshadow;
-                    padding: 13px;
-                    margin-bottom: 12px;
-                    border-radius: 24px 24px 0 0;
-                    min-height: 204px;
-
-                    
-
-                    .content {
-                        color: $white;
-                        text-transform: uppercase;
-                        min-height: 65px;
-                        margin-bottom: 10px;
-                        position: relative;
-
-                        &::after {
-                            content: "";
-                            height: 3px;
-                            width: 18px;
-                            position: absolute;
-                            bottom: 0;
-                            left: 46%;
-                            background-color: $white;
-                        }
-
+                    padding: 0 3px;
+                    &.blue .heading-block  {
+                        background-color: $blue-color;
+                        box-shadow: 0 -10px 0 $blue-light;
                     }
-                }
-
-                .week-description {
-                    background-color: $teal-light;
-                    min-height: 150px;
-                    margin-bottom: 6px;
-                    transition: $transition;
-                 &:hover{
-                    background-color:$teal-color;
-                 }
-                    .link-wrapper {
-                        padding-top: 25px;
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        justify-content: center;
-
-                        a {
-                            display: block;
-                            position: relative;
+                    &.blue .week-description  {
+                        background-color: $blue-light;
+                        &:hover{
+                            background-color: $blue-color;
+                        }
+                    }
+                    &.blue span{
+                        color: $blue-color;
+                    }
+                    &.purple .heading-block  {
+                        background-color: $purple-color;
+                        box-shadow: 0 -10px 0 $purple-light;
+                    }
+                    &.purple .week-description  {
+                        background-color: $purple-light;
+    
+                        &:hover{
+                            background-color: $purple-color;
+                        }
+                    }
+                    &.purple span{
+                        color: $purple-color;
+                    }
+                    &.orange .heading-block  {
+                        background-color: $orange-color;
+                        box-shadow: 0 -10px 0 $orange-light;
+                    }
+                    &.orange .week-description  {
+                        background-color: $orange-light;
+                        &:hover{
+                            background-color: $orange-color;
+                        }
+                    }
+                    &.orange span{
+                        color: $orange-color;
+                    }
+                    &.red .heading-block  {
+                        background-color: $red-color;
+                        box-shadow: 0 -10px 0 $red-light;
+                    }
+                    &.red .week-description  {
+                        background-color: $red-light;
+                        &:hover{
+                            background-color: $red-color;
+                        }
+                    }
+                    &.red span{
+                        color: $red-color;
+                    }
+                    &.violet .heading-block  {
+                        background-color: $violet-color;
+                        box-shadow: 0 -10px 0 $violet-light;
+                    }
+                    &.violet .week-description  {
+                        background-color: $violet-light;
+                        &:hover{
+                            background-color: $violet-color;
+                        }
+                    }
+                    &.violet span{
+                        color: $violet-color;
+                    }
+                    &.green .heading-block  {
+                        background-color: $green-color;
+                        box-shadow: 0 -10px 0 $green-light;
+                    }
+                    &.green .week-description  {
+                        background-color: $green-light;
+                        &:hover{
+                            background-color: $green-color;
+                        }
+                    }
+                    &.green span{
+                        color: $green-color;
+                    }
+                    &.dark-green .heading-block  {
+                        background-color: $dark-green-color;
+                        box-shadow: 0 -10px 0 $dark-green-light;
+                    }
+                    &.dark-green .week-description  {
+                        background-color: $dark-green-light;
+                        &:hover{
+                            background-color: $dark-green-color;
+                        }
+                    }
+                    &.dark-green span{
+                        color: $dark-green-color;
+                    }
+                    span {
+                        text-transform: uppercase;
+                        font-weight: 900;
+                        display: block;
+                        margin-bottom: 24px;
+                        color: $teal-color;
+    
+                        @include bp(smd-max){
+                            margin-bottom: 58px;
+                        }
+                    }
+    
+                    .heading-block {
+                        background-color: $teal-color;
+                        box-shadow: 0 -10px 0 $teal-boxshadow;
+                        padding: 13px;
+                        margin-bottom: 12px;
+                        border-radius: 24px 24px 0 0;
+                        min-height: 204px;
+    
+                        
+    
+                        .content {
                             color: $white;
-                            padding-bottom: 18px;
-                            margin-bottom: 6px;
-                            transition: $transition;
-                            font-size: 18px;
-                            max-width: 194px;
-
+                            text-transform: uppercase;
+                            min-height: 65px;
+                            margin-bottom: 10px;
+                            position: relative;
+    
                             &::after {
                                 content: "";
                                 height: 3px;
@@ -215,16 +190,56 @@
                                 left: 46%;
                                 background-color: $white;
                             }
-
-                            &:hover {
-                                text-decoration: underline;
-                            }
+    
                         }
                     }
-
+    
+                    .week-description {
+                        background-color: $teal-light;
+                        min-height: 150px;
+                        margin-bottom: 6px;
+                        transition: $transition;
+                     &:hover{
+                        background-color:$teal-color;
+                     }
+                        .link-wrapper {
+                            padding-top: 25px;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+    
+                            a {
+                                display: block;
+                                position: relative;
+                                color: $white;
+                                padding-bottom: 18px;
+                                margin-bottom: 6px;
+                                transition: $transition;
+                                font-size: 18px;
+                                max-width: 194px;
+    
+                                &::after {
+                                    content: "";
+                                    height: 3px;
+                                    width: 18px;
+                                    position: absolute;
+                                    bottom: 0;
+                                    left: 46%;
+                                    background-color: $white;
+                                }
+    
+                                &:hover {
+                                    text-decoration: underline;
+                                }
+                            }
+                        }
+    
+                    }
                 }
             }
         }
+       
     }
 
 .slider-nav{
@@ -242,6 +257,14 @@
 
         @include bp(smd-max){
             display: flex;
+        }
+        @include bp(xs-max){
+            display: none;
+        }
+    }
+    &.mobile-nav{
+        @include bp(xs-min){
+            display: none;
         }
     }
     &.show-prev {
@@ -278,8 +301,8 @@
         vertical-align: middle;
     }
     .prev{
-        // visibility: hidden;
-        // opacity: 0;
+        visibility: hidden;
+        opacity: 0;
         em{
             transform: rotate(180deg);
             margin-right: 15px;
